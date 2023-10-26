@@ -63,6 +63,8 @@
                     </p>
                     <br>
                     <p><b>Passengers data</b>
+                    <!-- Wrap the table inside a div with class "table-responsive" -->
+                    <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
@@ -72,7 +74,6 @@
                                     <th scope="col">Ticket Type</th>
                                     <th scope="col">Departure Destination</th>
                                     <th scope="col">Arrival Destination</th>
-                                    
                                 </tr>
                             </thead>
                             <tbody>
@@ -85,15 +86,17 @@
                                     <td>Gate 2</td>
                                 </tr>
                                 <tr>
-                                  <th scope="row">2</th>
-                                  <td>Salamn</td>
-                                  <td>AlOmran</td>
-                                  <td>Student Buss Ticket</td>
-                                  <td>Gate 3</td>
-                                  <td>Gate 5</td>
-                              </tr>
-                            
+                                    <th scope="row">2</th>
+                                    <td>Salamn</td>
+                                    <td>AlOmran</td>
+                                    <td>Student Buss Ticket</td>
+                                    <td>Gate 3</td>
+                                    <td>Gate 5</td>
+                                </tr>
+                            </tbody>
                         </table>
+                    </div>
+
                     </p>
                     <br>
                     <button class="btn btn-primary" onclick="printReport();">Print the report</button>
